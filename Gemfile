@@ -39,6 +39,18 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  #rspec
+  #gem 'rspec'
+  gem 'rspec-rails', '~> 3.5'
+  #gem 'rspec-mocks'
+
+  # gem 'shoulda-matchers',
+  #     git: 'https://github.com/thoughtbot/shoulda-matchers.git',
+  #     branch: 'rails-5'
+
+  # gem 'factory_girl_rails'
+  # gem 'ffaker'
 end
 
 group :development do
